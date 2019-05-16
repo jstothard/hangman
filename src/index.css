@@ -8,7 +8,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+td {
+  text-align: centre;
+}
+
+#guessed {
+  text-decoration: line-through;
+  letter-spacing: 0.5em;
+}
+#correctGuesses {
+  letter-spacing: 0.5em;
 }
